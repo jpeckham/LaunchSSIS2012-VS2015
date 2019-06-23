@@ -1,2 +1,13 @@
 # LaunchSSIS2012-VS2015
-Launch ssis from code using sql 2012 and VS 2015
+Launch ssis from VB.net code using sql 2012 and VS 2015
+
+## Primary goals
+- Use SQL 2012 with SSIS (Special needs, SP 2 CU1-6+SEC 1)
+- VS 2015
+- Visual Basic
+- Launch SSIS package from file locally
+- Windows 7 Enterprise
+
+## Other thoughts
+### Does SSIS have to be 2012?
+We're connecting remotely to a sql 2012 server. Seems like we could use whatever SSIS we wanted locally.
