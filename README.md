@@ -25,3 +25,7 @@ We're connecting remotely to a sql 2012 server. Seems like we could use whatever
   - Web Apps
   - SSDT (SQL Server Data Tools)
 * Install SSDT for VS 2015 version 17.4 "SSDT for VS2015 17.4" found at https://docs.microsoft.com/en-us/sql/ssdt/previous-releases-of-sql-server-data-tools-ssdt-and-ssdt-bi?view=sql-server-2017
+
+## Key Challenges
+* Mismatch of .net version to the Managed DTS runtime. v2 vs v4.5. This article was key: https://stackoverflow.com/questions/29240142/mixed-mode-assembly-is-built-against-version-v2-0-50727-of-the-runtime-and-can/29241003#29241003
+* Target SSIS version should/must be changed from SQL 2017 to SQL 2012
