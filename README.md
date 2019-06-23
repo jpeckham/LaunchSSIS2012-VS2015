@@ -11,3 +11,12 @@ Launch ssis from VB.net code using sql 2012 and VS 2015
 ## Other thoughts
 ### Does SSIS have to be 2012?
 We're connecting remotely to a sql 2012 server. Seems like we could use whatever SSIS we wanted locally.
+
+## Environment Setup
+* Setup new VM 4 gigs ram, 4 CPU
+* Install Win 7 Enterprise SP 1
+* Install SQL 2012 SP2 Developer Edition
+* Install VS 2015
+  - Git
+  - Web Apps
+  - SSDT (SQL Server Data Tools)
