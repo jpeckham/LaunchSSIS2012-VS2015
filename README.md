@@ -16,7 +16,12 @@ We're connecting remotely to a sql 2012 server. Seems like we could use whatever
 * Setup new VM 4 gigs ram, 4 CPU
 * Install Win 7 Enterprise SP 1
 * Install SQL 2012 SP2 Developer Edition
+  - Database engine
+  - MGMT tools (all)
+  - Client Connectivity
+  - Client Connectivity SDK
 * Install VS 2015
   - Git
   - Web Apps
   - SSDT (SQL Server Data Tools)
+* Install SSDT for VS 2015 version 17.4 "SSDT for VS2015 17.4" found at https://docs.microsoft.com/en-us/sql/ssdt/previous-releases-of-sql-server-data-tools-ssdt-and-ssdt-bi?view=sql-server-2017
